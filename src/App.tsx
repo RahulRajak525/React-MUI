@@ -10,6 +10,8 @@ import MuiSwitch from './components/7MuiSwitch';
 import MuiRatings from './components/8MuiRatings';
 import MuiAutoComplete from './components/9MuiAutoComplete';
 import { MuiLayout } from './components/10MuiLayout';
+import { MuiCard } from './components/11MuiCard';
+import { MuiAccordion } from './components/12MuiAccordion';
 
 function App() {
   
@@ -24,7 +26,9 @@ function App() {
       {/* <MuiSwitch/> */}
       {/* <MuiRatings/> */}
       {/* <MuiAutoComplete/> */}
-      <MuiLayout/>
+      {/* <MuiLayout/> */}
+      {/* <MuiCard/> */}
+      <MuiAccordion/>
     </div>
   );
 }
